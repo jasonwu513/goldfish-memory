@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdiary=self.webpackChunkdiary||[]).push([[1743],{77574:(e,a,t)=>{t.r(a),t.d(a,{default:()=>r});var l=t(67294),n=t(16963);function r(){return l.createElement(n.Z,null,l.createElement("h1",null,"My React page"),l.createElement("p",null,"This is a React page 12"))}}}]);

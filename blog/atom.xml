@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://jasonwu513.github.io/goldfish-memory/blog</id>
+    <title>Gold Fish Memory Blog</title>
+    <updated>2023-08-20T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://jasonwu513.github.io/goldfish-memory/blog"/>
+    <subtitle>Gold Fish Memory Blog</subtitle>
+    <icon>https://jasonwu513.github.io/goldfish-memory/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Sun Aug 20 2023 08:00:00 GMT+0800 (Taipei Standard Time)]]></title>
+        <id>https://jasonwu513.github.io/goldfish-memory/blog/Sun Aug 20 2023 08:00:00 GMT+0800 (Taipei Standard Time)</id>
+        <link href="https://jasonwu513.github.io/goldfish-memory/blog/Sun Aug 20 2023 08:00:00 GMT+0800 (Taipei Standard Time)"/>
+        <updated>2023-08-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[上個工作日進度(2023-08-19)]]></summary>
+        <author>
+            <name>jasonwu</name>
+            <uri>https://github.com/jasonwu513</uri>
+        </author>
+        <category label="hola" term="hola"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sat Aug 19 2023 08:00:00 GMT+0800 (Taipei Standard Time)]]></title>
+        <id>https://jasonwu513.github.io/goldfish-memory/blog/Sat Aug 19 2023 08:00:00 GMT+0800 (Taipei Standard Time)</id>
+        <link href="https://jasonwu513.github.io/goldfish-memory/blog/Sat Aug 19 2023 08:00:00 GMT+0800 (Taipei Standard Time)"/>
+        <updated>2023-08-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[上個工作日進度(2023-08-18)]]></summary>
+        <author>
+            <name>jasonwu</name>
+            <uri>https://github.com/jasonwu513</uri>
+        </author>
+        <category label="hola" term="hola"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fri Aug 18 2023 08:00:00 GMT+0800 (Taipei Standard Time)]]></title>
+        <id>https://jasonwu513.github.io/goldfish-memory/blog/Fri Aug 18 2023 08:00:00 GMT+0800 (Taipei Standard Time)</id>
+        <link href="https://jasonwu513.github.io/goldfish-memory/blog/Fri Aug 18 2023 08:00:00 GMT+0800 (Taipei Standard Time)"/>
+        <updated>2023-08-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[上個工作日進度(2023-08-17)]]></summary>
+        <author>
+            <name>jasonwu</name>
+            <uri>https://github.com/jasonwu513</uri>
+        </author>
+        <category label="hola" term="hola"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Thu Aug 17 2023 08:00:00 GMT+0800 (Taipei Standard Time)]]></title>
+        <id>https://jasonwu513.github.io/goldfish-memory/blog/Thu Aug 17 2023 08:00:00 GMT+0800 (Taipei Standard Time)</id>
+        <link href="https://jasonwu513.github.io/goldfish-memory/blog/Thu Aug 17 2023 08:00:00 GMT+0800 (Taipei Standard Time)"/>
+        <updated>2023-08-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[上個工作日進度(2023-08-16)]]></summary>
+        <author>
+            <name>jasonwu</name>
+            <uri>https://github.com/jasonwu513</uri>
+        </author>
+        <category label="hola" term="hola"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wed Aug 16 2023 08:00:00 GMT+0800 (Taipei Standard Time)]]></title>
+        <id>https://jasonwu513.github.io/goldfish-memory/blog/Wed Aug 16 2023 08:00:00 GMT+0800 (Taipei Standard Time)</id>
+        <link href="https://jasonwu513.github.io/goldfish-memory/blog/Wed Aug 16 2023 08:00:00 GMT+0800 (Taipei Standard Time)"/>
+        <updated>2023-08-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[上個工作日進度(2023-08-15)]]></summary>
+        <author>
+            <name>jasonwu</name>
+            <uri>https://github.com/jasonwu513</uri>
+        </author>
+        <category label="hola" term="hola"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pointer]]></title>
+        <id>https://jasonwu513.github.io/goldfish-memory/blog/2022/09/23/pointer</id>
+        <link href="https://jasonwu513.github.io/goldfish-memory/blog/2022/09/23/pointer"/>
+        <updated>2022-09-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[什么时候适合用指针]]></summary>
+        <content type="html"><![CDATA[<p>什么时候适合用指针</p><p>如果需要修改外部变量的值，我们需要使用指针 (變數作用域)；</p><p>不需要对map，slice等引用类型使用指针，因为他们本身就是一个指针</p><p>如果有超级大的结构体需要作为函数的参数，使用指针可以节省内存开销；</p><p>因为指针可以修改其指向数据的值，所以最好不要随意在并发场景下使用；</p><p>最好不要嵌套使用指针，比如b := &amp;a, c := &amp;b，这样代码会比较复杂难懂。</p><p>总结</p><p>指针也是变量，只不过存储的是地址；</p><p>通过指针可以去修改其指向数据的值。</p><p>指针可以帮助我们在任何地方修改其所指向数据的值；</p><p>传递指针参数可以节省拷贝大结构体的内存开销；</p><p>什么时候适合用指针，详见上方版块。</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="參考資料">參考資料<a href="#參考資料" class="hash-link" aria-label="Direct link to 參考資料" title="Direct link to 參考資料">​</a></h2><p><a href="https://studygolang.com/articles/32103" target="_blank" rel="noopener noreferrer">https://studygolang.com/articles/32103</a></p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[kafka]]></title>
+        <id>https://jasonwu513.github.io/goldfish-memory/blog/2022/09/22/kafka</id>
+        <link href="https://jasonwu513.github.io/goldfish-memory/blog/2022/09/22/kafka"/>
+        <updated>2022-09-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Advantage]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="advantage">Advantage<a href="#advantage" class="hash-link" aria-label="Direct link to Advantage" title="Direct link to Advantage">​</a></h2><ol><li>架构解耦 (避免因程式耦合 造成整個系統crash)</li><li>流量控制 (避免Kafka中的流量剧增导致过大的流量打到Consumer端将Consumer给压垮)</li><li>异步处理 (consumer 處理隊列 程式不用等候回應 加速回應時間)</li></ol><h2 class="anchor anchorWithStickyNavbar_LWe7" id="disadvantage">Disadvantage<a href="#disadvantage" class="hash-link" aria-label="Direct link to Disadvantage" title="Direct link to Disadvantage">​</a></h2><ol><li>消息丢失</li><li>消息重复</li><li>消息乱序</li><li>消息堆积</li></ol><h2></h2><h2 class="anchor anchorWithStickyNavbar_LWe7" id="參考資料">參考資料<a href="#參考資料" class="hash-link" aria-label="Direct link to 參考資料" title="Direct link to 參考資料">​</a></h2><p><a href="https://www.jianshu.com/p/fa02d0ebfc5c" target="_blank" rel="noopener noreferrer">https://www.jianshu.com/p/fa02d0ebfc5c</a></p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[docusaurus]]></title>
+        <id>https://jasonwu513.github.io/goldfish-memory/blog/docusaurus</id>
+        <link href="https://jasonwu513.github.io/goldfish-memory/blog/docusaurus"/>
+        <updated>2022-09-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[1. 在Google 上找答案發現自己在Ｎ年前曾幫別人回答過這個問題．．．]]></summary>
+        <content type="html"><![CDATA[<h2></h2><ol><li>在Google 上找答案發現自己在Ｎ年前曾幫別人回答過這個問題．．．</li><li>開始使用docusaurus 紀錄開發歷程和心得,好記性不如爛筆頭,何況我們沒有記性這種東西．．．</li><li>原本想用Typora 進行markdown 編輯, 但是要收費了, 改使用vscode+ Markdown image 編輯 </li><li>Markdown image Extension  linux 需要先安裝 xclip</li><li>遠端使用好像有問題改成在Ｈackmd 編輯後再貼過來</li></ol><div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo apt install xclip</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content>
+        <author>
+            <name>Jason Wu</name>
+            <uri>https://scitotech.com/</uri>
+        </author>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mac xcode bug dealing]]></title>
+        <id>https://jasonwu513.github.io/goldfish-memory/blog/2022/09/15/mac-git-bugs</id>
+        <link href="https://jasonwu513.github.io/goldfish-memory/blog/2022/09/15/mac-git-bugs"/>
+        <updated>2022-09-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[google and fix bugs]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="google-and-fix-bugs">google and fix bugs<a href="#google-and-fix-bugs" class="hash-link" aria-label="Direct link to google and fix bugs" title="Direct link to google and fix bugs">​</a></h2><p>detail not recorded</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Welcome1]]></title>
+        <id>https://jasonwu513.github.io/goldfish-memory/blog/welcome</id>
+        <link href="https://jasonwu513.github.io/goldfish-memory/blog/welcome"/>
+        <updated>2021-08-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></summary>
+        <content type="html"><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p><p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p><p>Regular blog authors can be added to <code>authors.yml</code>.</p><p>The blog post date can be extracted from filenames, such as:</p><ul><li><code>2019-05-30-welcome.md</code></li><li><code>2019-05-30-welcome/index.md</code></li></ul><p>A blog post folder can be convenient to co-locate blog post images:</p><p><img loading="lazy" alt="Docusaurus Plushie" src="/goldfish-memory/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p><p>The blog supports tags as well!</p><p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content>
+        <author>
+            <name>Jason Wu</name>
+            <uri>https://scitotech.com/</uri>
+        </author>
+        <category label="facebook" term="facebook"/>
+        <category label="hello" term="hello"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+</feed>
