@@ -1,7 +1,7 @@
 ---
 slug: docusaurus
 title: docusaurus
-authors: [slorber]
+authors: [jasonwu]
 tags: [docusaurus]
 ---
 
