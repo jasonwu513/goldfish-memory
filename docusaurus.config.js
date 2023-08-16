@@ -9,7 +9,7 @@ const config = {
   title: 'Gold Fish Memory',
   tagline: 'ultra gold fish memory',
   url: 'https://jasonwu513.github.io',
-  baseUrl: '/goldfish-memory/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -21,6 +21,7 @@ const config = {
   organizationName: 'jasonwu513', // Usually your GitHub org/user name.
   projectName: 'goldfish-memory', // Usually your repo name.
   deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
   // markdown: {
   //   mermaid: true,
