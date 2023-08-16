@@ -9,7 +9,7 @@ const config = {
   title: 'Gold Fish Memory',
   tagline: 'ultra gold fish memory',
   url: 'https://jasonwu513.github.io',
-  baseUrl: '/',
+  baseUrl: '/goldfish-memory/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
