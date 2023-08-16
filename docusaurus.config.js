@@ -20,6 +20,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'jasonwu513', // Usually your GitHub org/user name.
   projectName: 'goldfish-memory', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
 
   // markdown: {
   //   mermaid: true,
