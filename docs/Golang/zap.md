@@ -179,3 +179,44 @@ Logger = zap.New(core, zap.AddCaller(), zap.AddCallerSkip(1))
 // TEE 會將 log 寫入到兩個 core
 Logger = zap.New(zapcore.NewTee(core, EmailCore), zap.AddCaller(), zap.AddCallerSkip(1))
 ```
+
+
+
+如果想要 紀錄 json 的時候，可以用
+
+```go
+func RequestLogger() gin.HandlerFunc {
+	return func(c *gin.Context) {
+
+		// Read and save the request body
+		bodyBytes, err := io.ReadAll(c.Request.Body)
+		if err != nil {
+			global.AccessLog.Error("Failed to read request body", zap.Error(err))
+		}
+		// Replace the original body so subsequent handlers can read it
+		c.Request.Body = io.NopCloser(bytes.NewBuffer(bodyBytes))
+
+		c.Next()
+
+		var requestBody map[string]interface{}
+		if err := json.Unmarshal(bodyBytes, &requestBody); err != nil {
+			global.AccessLog.Error("JSON parse fail", zap.Error(err))
+			return
+		}
+
+		global.AccessLog.Info(
+			"RequestLogger",
+			zap.String("method", c.Request.Method),
+			zap.String("uri", c.Request.RequestURI),
+			zap.String("proto", c.Request.Proto),
+			zap.Int("status", c.Writer.Status()),
+			zap.String("user-agent", c.Request.UserAgent()),
+			zap.String("ip", c.ClientIP()),
+			zap.Any("header", c.Request.Header),
+		)
+
+		global.AccessLog.Info("requestBody", zap.Any("requestBody", requestBody))
+
+	}
+}
+```
