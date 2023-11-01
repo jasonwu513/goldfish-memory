@@ -64,3 +64,60 @@ services:
       - "6379:6379"
 
 ```
+
+```
+version: '3'
+
+services:
+  projectName:
+    image: mcr.microsoft.com/devcontainers/go:1-1.20-bullseye
+    stdin_open: true
+    tty: true
+    command: ["tail", "-f", "/dev/null"]
+    ports:
+      - "8080:8080"
+    volumes:
+      - /Users/xxxxx/projects/go/projectName:/workspace
+  mariadb:
+    image: mariadb:latest
+    user: root
+    environment:
+      MYSQL_ROOT_PASSWORD: xxxxxx
+      MYSQL_DATABASE: projectName
+      MYSQL_USER: root
+      MYSQL_PASSWORD: xxxxxx
+    ports:
+      - "13306:3306"
+
+  redis:
+    image: redis:latest
+    ports:
+      - "16379:6379"
+
+
+
+```
+
+
+```
+
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/go
+{
+	"name": "projectName",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "projectName",
+	"workspaceFolder": "/workspace",
+	// "forwardPorts": [8080],
+	// "appPort": ["13306:3306"],
+	"features": {
+		"ghcr.io/devcontainers/features/node:1": {
+			"nodeGypDependencies": true,
+			"version": "18",
+			"nvmVersion": "latest"
+		}
+	},
+	// "postCreateCommand": "go version"
+}
+
+```
