@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  jellyfin:
+    image: jellyfin/jellyfin:10.8.12
+    container_name: jellyfin
+    user: 1000:1000
+    network_mode: "host"
+    # ports:
+    #   - "8096:8096"  # Map TCP port 8096 on the host to port 8096 in the container
+    volumes:
+      - /data/docker/jellyfin/config:/config
+      - /data/docker/jellyfin/cache:/cache
+      - /mnt/nfs_truenas1:/media
+    environment:
+      - TZ=Asia/Taipei
+      - JELLYFIN_PublishedServerUrl=http://192.168.1.98:8096
+    restart: unless-stopped
