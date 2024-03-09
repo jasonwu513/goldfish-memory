@@ -9,3 +9,11 @@ dev env
 .NET SDK
 VSCODE
 VSCODE EXTENSION
+
+
+```mermaid
+graph TD
+A[.NET SDK] -->|C#| B[VSCode]
+B -->|C#| C[VSCode Extension]
+```
+
