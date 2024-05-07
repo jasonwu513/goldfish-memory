@@ -28,6 +28,8 @@
 - \(.*\)：匹配 console.log 語句中的括號及其內部的任意字符。括號 ( 和 ) 也是正則表達式中的特殊字符，用於分組，因此需要用反斜杠轉義 \( 和 \) 以匹配實際的括號字符。.* 匹配括號內的任意長度字符序列。
 
 
+or  select console.log , Ctrl + D to select all console.log, Ctrl + L to select all line, then delete 
+
 
 ### 註解所有 console.log
 
