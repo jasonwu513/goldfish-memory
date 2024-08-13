@@ -1,9 +1,28 @@
 # Install
 
+## 安裝
+
+```bash
+npx create-docusaurus@latest my-website classic
+cd my-website
+```
+
+本地開發
+```
+npm run start
+```
+
 遠端開發
 ```
 npm run start -- --host 0.0.0.0
 ```
+
+在本地開啟網站服務(no hot reload)
+```
+npm run serve
+```
+
+
 
 
 使用 gh-pages 部署
