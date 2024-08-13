@@ -1,3 +1,5 @@
+# 圖片
+
 可以使用 Docusaurus 的靜態資源參考在 Markdown 文件中引用基於 `baseUrl` 的資源。
 
 假設你想在 Markdown 文件中引用一個圖片，你可以這樣做：
