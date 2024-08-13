@@ -2,62 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jasonwu513.github.io/goldfish-memory/blog</id>
     <title>Gold Fish Memory Blog</title>
-    <updated>2023-08-20T00:00:00.000Z</updated>
+    <updated>2023-08-17T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jasonwu513.github.io/goldfish-memory/blog"/>
     <subtitle>Gold Fish Memory Blog</subtitle>
     <icon>https://jasonwu513.github.io/goldfish-memory/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Sun Aug 20 2023 08:00:00 GMT+0800 (Taipei Standard Time)]]></title>
-        <id>https://jasonwu513.github.io/goldfish-memory/blog/Sun Aug 20 2023 08:00:00 GMT+0800 (Taipei Standard Time)</id>
-        <link href="https://jasonwu513.github.io/goldfish-memory/blog/Sun Aug 20 2023 08:00:00 GMT+0800 (Taipei Standard Time)"/>
-        <updated>2023-08-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[上個工作日進度(2023-08-19)]]></summary>
-        <author>
-            <name>jasonwu</name>
-            <uri>https://github.com/jasonwu513</uri>
-        </author>
-        <category label="hola" term="hola"/>
-        <category label="docusaurus" term="docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sat Aug 19 2023 08:00:00 GMT+0800 (Taipei Standard Time)]]></title>
-        <id>https://jasonwu513.github.io/goldfish-memory/blog/Sat Aug 19 2023 08:00:00 GMT+0800 (Taipei Standard Time)</id>
-        <link href="https://jasonwu513.github.io/goldfish-memory/blog/Sat Aug 19 2023 08:00:00 GMT+0800 (Taipei Standard Time)"/>
-        <updated>2023-08-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[上個工作日進度(2023-08-18)]]></summary>
-        <author>
-            <name>jasonwu</name>
-            <uri>https://github.com/jasonwu513</uri>
-        </author>
-        <category label="hola" term="hola"/>
-        <category label="docusaurus" term="docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fri Aug 18 2023 08:00:00 GMT+0800 (Taipei Standard Time)]]></title>
-        <id>https://jasonwu513.github.io/goldfish-memory/blog/Fri Aug 18 2023 08:00:00 GMT+0800 (Taipei Standard Time)</id>
-        <link href="https://jasonwu513.github.io/goldfish-memory/blog/Fri Aug 18 2023 08:00:00 GMT+0800 (Taipei Standard Time)"/>
-        <updated>2023-08-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[上個工作日進度(2023-08-17)]]></summary>
-        <author>
-            <name>jasonwu</name>
-            <uri>https://github.com/jasonwu513</uri>
-        </author>
-        <category label="hola" term="hola"/>
-        <category label="docusaurus" term="docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Thu Aug 17 2023 08:00:00 GMT+0800 (Taipei Standard Time)]]></title>
-        <id>https://jasonwu513.github.io/goldfish-memory/blog/Thu Aug 17 2023 08:00:00 GMT+0800 (Taipei Standard Time)</id>
-        <link href="https://jasonwu513.github.io/goldfish-memory/blog/Thu Aug 17 2023 08:00:00 GMT+0800 (Taipei Standard Time)"/>
+        <title type="html"><![CDATA[亞馬遜退貨]]></title>
+        <id>https://jasonwu513.github.io/goldfish-memory/blog/2023/08/17/dairy</id>
+        <link href="https://jasonwu513.github.io/goldfish-memory/blog/2023/08/17/dairy"/>
         <updated>2023-08-17T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[上個工作日進度(2023-08-16)]]></summary>
-        <author>
-            <name>jasonwu</name>
-            <uri>https://github.com/jasonwu513</uri>
-        </author>
-        <category label="hola" term="hola"/>
-        <category label="docusaurus" term="docusaurus"/>
+        <summary type="html"><![CDATA[退貨流程]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="退貨流程">退貨流程<a href="#退貨流程" class="hash-link" aria-label="Direct link to 退貨流程" title="Direct link to 退貨流程">​</a></h2><ol><li>登入亞馬遜帳號</li><li>點選「我的訂單」</li><li>點選「退貨/退款」</li><li>選擇要退貨的商品</li><li>選擇退貨原因</li><li>選擇退貨方式</li><li>確認退貨資訊</li><li>如何寄送退貨商品???</li></ol><h2 class="anchor anchorWithStickyNavbar_LWe7" id="如何寄送退貨商品">如何寄送退貨商品<a href="#如何寄送退貨商品" class="hash-link" aria-label="Direct link to 如何寄送退貨商品" title="Direct link to 如何寄送退貨商品">​</a></h2><ul><li>在建立退貨請求後，請等待 30 分鐘再繼續安排取件時間。請注意， 您需要與 DHL 快遞安排取件時間，以便貨運公司知道要進行取件。 : DHL 首頁=&gt; 寄件=&gt; 預約取件=&gt; 是否建立一個提單(否) =&gt; 輸入提單號碼(AMAZON 的空運貨運號碼) =&gt; 確認取件地址(郵遞區號5碼, 不接受新式6碼郵遞區號)=&gt; 確認大小重量 =&gt; 確認取貨時間 =&gt; 完成</li><li>請移除或遮蓋您包裝箱上任何先前遺留的追蹤標籤或危險物品標記，以確保包裹狀況良好。貨件不得包含任何危險物品。 =&gt; 因為沒有包裝袋  前往 7-11 購買 2塊錢的便利袋</li><li>請列印其中一個標籤，並在取件前將標籤牢固地貼在包裹上。請保留第二個標籤作為參考。 =&gt; 列印標籤和 commercial invoice, 一份給 DHL 一份留存</li><li>請將退貨授權單放在您的包裹內。 =&gt;，將comercial invoice 放在便利袋內, (先不要密封)</li><li>請不要密封您的包裹。 運送者需要檢查後才會接受。</li><li>請追蹤此連結並選擇「安排取件」，或請瀏覽 mydhl.Express.dhl。當出現「您是否需要建立送貨標籤？」的提示時，請選擇「否」。您需要提交上面提供的空運貨運號* 碼和您的電話號碼以安排取件。如要透過電話安排取件，請撥打 +852 2400 3388 聯絡 DHL 快遞客服代表。如有任何困難，請聯絡 Amazon。</li><li>請提供您的個人身分證副本給貨運公司。 =</li><li>按一下這裡下載清關所需的授權書。 請列印並填寫，以交給運輸公司。 若針對如何填寫此文件需要協助，請按一下這裡。 =&gt; 列印並簽署清關授權書並放入袋中</li><li>請簽署商業發票和授權書。 保持包裝箱開啟，以便貨運公司檢查。</li></ul>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Pointer]]></title>
