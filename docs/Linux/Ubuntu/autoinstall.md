@@ -1,5 +1,5 @@
 
-# [Ubuntu 自動化安裝](https://www.youtube.com/watch?v=DtXZ6BMaKbA)
+# Ubuntu 自動化安裝
 
 ## Ubuntu Server 自動化安裝
 

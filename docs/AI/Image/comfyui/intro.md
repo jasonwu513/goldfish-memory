@@ -1,4 +1,4 @@
-# [為什麼我應該使用 ComfyUI？](https://www.reddit.com/r/StableDiffusion/comments/15if9ts/why_should_i_use_comfyui/)
+# 為什麼我應該使用 ComfyUI？
 
 ## ComfyUI 的優點
 
@@ -12,7 +12,7 @@
 
 ### 豐富的功能和擴展性
 
-- ComfyUI 支援多種文本到圖像的模型,如 Stable Diffusion、DALL-E 等
+- ComfyUI 支援多種文本到圖像的模型,如 Stable Diffusion、DALL-E、 Flux.1 等
 
 - 提供了各種預設的參數和設定,可以快速生成高質量的圖像
 
@@ -54,3 +54,5 @@
 
 ### ComfyUI 為 Stable Diffusion 等文本到圖像模型提供了一個簡單易用的界面,具有豐富的功能和擴展性。無論是初學者還是有經驗的使用者,都可以通過 ComfyUI 快速上手並創造出令人驚嘆的圖像作品。立即開始使用 ComfyUI,開啟你的創意之旅吧!
 
+
+> 為什麼我應該使用 ComfyUI: [Why should I use ComfyUI?](https://www.reddit.com/r/StableDiffusion/comments/15if9ts/why_should_i_use_comfyui/)

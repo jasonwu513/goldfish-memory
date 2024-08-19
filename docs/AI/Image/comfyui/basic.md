@@ -1,4 +1,4 @@
-# [使用 Comfyui 生成出色的藝術作品](https://www.youtube.com/watch?v=rwNV3O8mZlo)
+# 使用 Comfyui 生成出色的藝術作品
 
 ## 為什麼要使用 Comfyui？
 
@@ -60,3 +60,4 @@
 
 ### 提供簡單高效的工作流程選項
 
+> Why ComfyUI is The BEST UI for Stable Diffusion! [使用 Comfyui 生成出色的藝術作品](https://www.youtube.com/watch?v=rwNV3O8mZlo)
