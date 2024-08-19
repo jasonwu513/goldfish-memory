@@ -120,4 +120,4 @@
 
 - 使用 --stop 參數控制圖像生成的程度
 
-> Midjourney 網頁版的使用技巧: [Midjourney 網頁版的使用技巧](https://www.youtube.com/watch?v=uxYxQmyw3Ys)
+> 參考資料來源： [Midjourney 網頁版的使用技巧](https://www.youtube.com/watch?v=uxYxQmyw3Ys)
