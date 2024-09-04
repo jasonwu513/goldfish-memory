@@ -11,3 +11,8 @@
 ## 參考資料
 
 > [Cursor IDE](https://www.cursor.com/features)
+
+
+## 問題
+
+- Linux 安裝 fuse 導致無法進入桌面系統 [參考](https://askubuntu.com/questions/1387469/boot-hangs-when-starting-gdm-service)
