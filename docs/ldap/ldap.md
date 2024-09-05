@@ -1,7 +1,6 @@
 # 架設LDAP 練習環境
 
 
-詢問gpt
 
 ```
 docker run \
