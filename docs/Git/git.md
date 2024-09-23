@@ -1,5 +1,11 @@
 # Git Notes
 
+## add 資料夾下所有檔案
+
+```bash
+git add <folder>/*
+```
+
 
 ## 從別的分支撿檔案
 
