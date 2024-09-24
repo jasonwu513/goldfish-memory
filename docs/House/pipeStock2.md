@@ -17,4 +17,4 @@ draft: true
 
 
 明管轉暗管示意圖:
-<img src="./img/method3.png" alt="明管轉暗管" width="500">
+<img src="./img/method3.png" alt="明管轉暗管" width="500"></img>
