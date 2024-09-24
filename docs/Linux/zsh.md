@@ -34,7 +34,31 @@ ZSH 相比 BASH 擁有更強大的自動完成、擴展功能、兼容性、歷�
 ### 使用自訂提示符號
 自訂提示符號能提供更豐富的即時資訊，如顯示當前分支名稱、工作目錄狀態及命令執行時間等，這樣可以在操作過程中更直觀地掌握系統狀態。
 
+### 遇到中文顯示問題
+![picture 0](images/e86646f3dbcae6c6d90d1eb6ccfac80d38b1b2d5b0fd5567d59cdcbafa88b774.png)  
+
+```bash
+vim ~/.zshrc
+```
+
+
+設定成 UTF-8 編碼
+```vim
+# 在 ~/.zshrc 中加入以下內容
+export LC_ALL="en_US.UTF-8"
+export LANG="en_US.UTF-8"
+```
+
+```bash
+source ~/.zshrc
+```
+
+![picture 1](images/b6cbcbfdadc58975e778d860eafe4f5e1d734a66350a2b8021bcbfbf2e74f7fe.png)  
+
+
 ## 參考資料
 
 1. [為什麼選擇 ZSH 而非 BASH?](https://www.reddit.com/r/linuxquestions/comments/p50jvl/those_of_you_who_prefer_zsh_to_bash_why/)
 2. [將 Ubuntu 終端機轉換為具有豐富資訊的提示符號](https://www.youtube.com/watch?v=PZTLIVQxxEY)
+
+3. [zsh 終端出現中文亂碼](https://blog.csdn.net/love131452098/article/details/122348809)
