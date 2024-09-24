@@ -34,6 +34,46 @@ ZSH 相比 BASH 擁有更強大的自動完成、擴展功能、兼容性、歷�
 ### 使用自訂提示符號
 自訂提示符號能提供更豐富的即時資訊，如顯示當前分支名稱、工作目錄狀態及命令執行時間等，這樣可以在操作過程中更直觀地掌握系統狀態。
 
+
+### 引用
+
+```bash
+if [ -f ~/.zshrc_aliases ]; then
+    . ~/.zshrc_aliases
+fi
+
+if [ -f ~/.zshrc_functions ]; then
+    . ~/.zshrc_functions
+fi
+
+```
+
+> .zshrc_aliases
+
+```bash
+alias vi="nvim"
+alias iforgot="cat /home/jasonwu513/iforgot"
+alias bj4="cd /var/log"
+alias pj="cd /Users/wuyishen/projects"
+
+# No more cd ../../../..
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias ......='cd ../../../../..'
+```
+
+> .zshrc_functions
+
+```bash
+function mov2gif() {
+    ffmpeg -i $1 \
+        -vf "fps=10,scale=320:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" \
+        -loop 0 $1.gif
+}
+```
+
 ### 遇到中文顯示問題
 ![picture 0](images/e86646f3dbcae6c6d90d1eb6ccfac80d38b1b2d5b0fd5567d59cdcbafa88b774.png)  
 
