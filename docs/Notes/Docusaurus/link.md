@@ -3,6 +3,9 @@
 參考
 > src/pages/index.tsx
 
+
+### In React Component use Link
+
 可以使用 Link 連結到其他頁面，Link 會自動轉換成正確的路徑。
 
 ```tsx
@@ -50,4 +53,11 @@ export default function Home(): JSX.Element {
     </Layout>
   );
 }
+```
+
+### In markdown use link
+
+```
+- [URL path to another document](./installation)
+- [file path to another document](./installation.mdx)
 ```
