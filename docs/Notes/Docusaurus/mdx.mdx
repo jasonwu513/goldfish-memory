@@ -1,0 +1,60 @@
+import GitGrapph from './gitGraph.mdx'
+
+## MDX 是什麼？它有什麼特點？
+
+MDX 不僅支援標準的 Markdown 語法，還允許你在 Markdown 文檔中直接插入 JSX（JavaScript XML）語法，這使得它特別適合與 React 等前端框架一起使用。你可以在 Markdown 中使用 React 元件，這樣可以將內容與互動功能結合在一起。
+
+具體來說，MDX 的一些特性包括：
+
+1. **Markdown 語法**：你可以照常使用標準的 Markdown 進行文檔編寫，如標題、列表、引用等。
+   
+2. **JSX 語法**：可以在 Markdown 文件中嵌入 React 元件，這提供了很大的靈活性。例如：
+   
+   ```mdx
+   # 這是一個標題
+
+   <MyComponent />
+
+   這是一段文字，下面是一個元件：
+
+   <Button>Click Me</Button>
+   ```
+
+3. **擴展功能**：由於 MDX 是基於 JSX 的，你可以根據項目的需要自定義元件，甚至引入外部數據源或邏輯。
+
+總之，MDX 不僅擴展了 Markdown 的功能，還讓前端框架可以無縫地與文檔內容結合，適合用於需要高互動性和動態內容的網頁或文檔系統。
+
+
+### importing components
+
+
+
+### importing markdown files
+
+```mdx
+<!-- _markdown-partial-example.mdx  -->
+
+<span>Hello {props.name}</span>
+
+This is text some content from `_markdown-partial-example.mdx`.
+
+```
+
+```mdx
+<!-- someOtherDoc.mdx  -->
+
+import PartialExample from './_markdown-partial-example.mdx';
+
+<PartialExample name="Sebastien" />
+
+```
+
+已下 mdx component 內容使用 MDX 引入
+
+
+<GitGrapph />
+
+
+### Compare With Hugo
+
+在比較過 Hugo 和 Docusaurus 之後，我選擇了 Docusaurus 作為我的文檔系統。可以使用 MDX 來撰寫文檔，相較於Hugo 的 shortcodes 這樣可以更靈活地結合 Markdown 和 React，實現更豐富的內容和互動功能和元件/markdown 複用。 除非只會寫Golang 或是沒有前端能力, 否則我會選擇Docusaurus 作為我的文檔系統或靜態網站生成器。 (如果只是套用 Hugo 的主題寫Blog, 那就不用考慮這個問題了)
