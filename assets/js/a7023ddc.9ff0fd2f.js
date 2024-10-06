@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdiary=self.webpackChunkdiary||[]).push([[1713],{53457:a=>{a.exports=JSON.parse('[{"label":"work_dairy","permalink":"/blog/tags/work-dairy","count":2},{"label":"docusaurus","permalink":"/blog/tags/docusaurus","count":3},{"label":"facebook","permalink":"/blog/tags/facebook","count":1},{"label":"hello","permalink":"/blog/tags/hello","count":1}]')}}]);

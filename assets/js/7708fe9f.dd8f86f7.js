@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdiary=self.webpackChunkdiary||[]).push([[6333],{5506:a=>{a.exports=JSON.parse('{"label":"work_dairy","permalink":"/blog/tags/work-dairy","allTagsPath":"/blog/tags","count":2}')}}]);

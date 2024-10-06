@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdiary=self.webpackChunkdiary||[]).push([[3368],{95933:e=>{e.exports=JSON.parse('{"permalink":"/goldfish-memory/blog/page/2","page":2,"postsPerPage":10,"totalPages":4,"totalCount":32,"previousPage":"/goldfish-memory/blog","nextPage":"/goldfish-memory/blog/page/3","blogDescription":"Blog","blogTitle":"Blog"}')}}]);

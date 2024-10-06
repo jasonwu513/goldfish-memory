@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdiary=self.webpackChunkdiary||[]).push([[5442],{1905:a=>{a.exports=JSON.parse('{"label":"work_dairy","permalink":"/goldfish-memory/blog/tags/work-dairy","allTagsPath":"/goldfish-memory/blog/tags","count":2}')}}]);
