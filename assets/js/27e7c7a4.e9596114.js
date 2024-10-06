@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdiary=self.webpackChunkdiary||[]).push([[7314],{3726:s=>{s.exports=JSON.parse('{"label":"tags","permalink":"/docs/tags/tags","allTagsPath":"/docs/tags","count":1,"items":[{"id":"Notes/Docusaurus/tags","title":"tag","description":"Docusarus tags","permalink":"/docs/Notes/Docusaurus/tag"}]}')}}]);

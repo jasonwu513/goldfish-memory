@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdiary=self.webpackChunkdiary||[]).push([[1237],{63116:l=>{l.exports=JSON.parse('{"label":"hello","permalink":"/goldfish-memory/blog/tags/hello","allTagsPath":"/goldfish-memory/blog/tags","count":1}')}}]);
